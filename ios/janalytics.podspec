@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'janalytics'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = 'A new Flutter plugin.'
   s.description      = <<-DESC
 A new Flutter plugin.
@@ -17,7 +17,7 @@ A new Flutter plugin.
   s.dependency 'Flutter'
   s.dependency 'JAnalytics'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.static_framework = true
 end
 
